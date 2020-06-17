@@ -3,15 +3,18 @@ function Player(currentRoll, turnScore, totalScore) {
   this.turnScore = turnScore
   this.totalScore = totalScore
 }
-let player1 = new Player;
+let player1 = new Player();
 
 Player.prototype.rollDice = function() {
-  let randomNumber = Math.floor((Math.random() * 6) + 1);
-  this.currentRoll = randomNumber;
+  randomNumber = Math.floor((Math.random() * 6) + 1);
+  this.currentRoll = randomNumber
+  if (randomNumber === 1) {
+    this.turnScore = 0
+    this.currentRoll = 1
+  } else {this.turnScore += randomNumber}
   return this.currentRoll;
 }
 
-Player.prototype.rollDice = function() {
-  this.currentRoll = Math.floor((Math.random() * 6) + 1);
-  return this.currentRoll;
+Player.prototype.turnScore = function(){
+  
 }
