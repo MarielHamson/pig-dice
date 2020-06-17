@@ -1,7 +1,7 @@
 function Player(currentRoll, turnScore, totalScore) {
-  this.currentRoll = currentRoll;
-  this.turnScore = turnScore
-  this.totalScore = totalScore
+  this.currentRoll = 0;
+  this.turnScore = 0;
+  this.totalScore = 0;
 }
 let player1 = new Player();
 
@@ -15,6 +15,11 @@ Player.prototype.rollDice = function() {
   return this.currentRoll;
 }
 
-Player.prototype.turnScore = function(){
-  
-}
+Player.prototype.gameScore = function(){
+  this.totalScore += this.turnScore
+    // if (this.totalScore >= 100) {
+    //   alert("you win")
+    // } else
+
+  return this.totalScore;
+
