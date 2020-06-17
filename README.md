@@ -10,11 +10,12 @@
 |----------|-------|-------|
 | Player 1 clicks "roll" to roll the dice | Roll ("click") | Current roll: 3 |
 | Player 1 has the option to roll again | Roll ("click") | Current roll: 4, turn score: 7 |
-| Player 1 has the option to hold and end their turn | Hold ("click") | Current roll: n/a, turn score: 3 |
+| Player 1 has the option to hold and end their turn. This will add their turn score to their total score. | Hold ("click") | Current roll: n/a, turn score: 7, total score: 7 |
 | Player 2's turn starts | Roll ("click") | Current roll: 5, turn score: 5 |
 | Player 2 has the option to roll again | Roll ("click") | Current roll: 2, turn score: 7 |
-| Player 2 has the option to hold and end their turn | Hold ("click") | Current roll: n/a, turn score: 7 |
-| If either player rolls a 1, their turn score is reset to 0, and their turn ends | 1 | current roll: 1, turn score: 0 |
+| Player 2 has the option to hold and end their turn | Hold ("click") | Current roll: n/a, turn score: 7 , total score: 7|
+| If either player rolls a 1, their turn score is reset to 0, and their turn ends | 1 | current roll: 1, turn score: 0, total score: [sum of previous turn scores] |
+| The first player to reach 100 points wins the game | total score: 95, turn score: 5 | total score: 100, YOU WIN!|
 
 ---
 
