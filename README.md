@@ -22,13 +22,12 @@
 ## Setup/Installation Requirements 
   ### Via GitHub Download
 
-* _Navigate to www.github.com/marielhamson _
+* _Navigate to www.github.com/marielhamson_
 * _Find the pig-dice repository by search or scroll_
 * _click Download repository_
 * _Navigate to the project folder that you have just downloaded_
-* _Open the 
+* _Open the index.html file in your preferred browser_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
 
 ## Known Bugs
 
@@ -36,14 +35,16 @@ _{Are there issues that have not yet been resolved that you want to let users kn
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_Please reach out to me at mariel.hamson@gmail.com if you have any questions or suggestions_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+* _HTML_
+* _CSS_
+* _Javascript_
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*MIT Licensing*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2020 **_Mariel Hamson and Matthew Craig_**
