@@ -17,9 +17,9 @@ Player.prototype.rollDice = function() {
 
 Player.prototype.gameScore = function(){
   this.totalScore += this.turnScore
-    // if (this.totalScore >= 100) {
-    //   alert("you win")
-    // } else
+    if (this.totalScore >= 100) {
+      alert("you win")
+    } else {return false}
 
   return this.totalScore;
-
+}
